@@ -18,14 +18,13 @@
     padding-top: 110px;
     padding-bottom: 10px;
     text-align: center;
-    /* position: relative;
-    top: 200px; */
     margin-bottom: 20px
   }
 
 
   .myName {
-    color:  #292a2b;
+    color: black;
+    /* #292a2b; */
     /* #092e96; */
     font-size: 7em;
     font-weight: 400;
@@ -40,8 +39,7 @@
   }
 
   .contentHeaders {
-    color: #292a2b;
-    /* #092e96; */
+    color: white;
     font-size: 1.2em;
     margin: 0;
     position: absolute;
@@ -60,12 +58,12 @@
     font-size: 2em;
     font-weight: 600;
     overflow: hidden;
-    border: 15px solid #292a2b;
+    border: 15px solid black;
     border-radius: 3px
   }
 
   .contentDivs:hover {
-    border: 15px solid aqua;
+    border: 15px solid gray;
   }
 
   img {

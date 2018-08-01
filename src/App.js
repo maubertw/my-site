@@ -1,24 +1,16 @@
 import React, { Component } from 'react'
 import './App.css'
-import brow from './brow.jpg'
-import serious from './serious.jpg'
-import smile from './smile.jpg'
+import lightbrow from './lightbrow.jpg'
+import lightserious from './lightserious.jpg'
+import lightsmile from './lightsmile.jpg'
 import graybrow from './gray-brow.jpg'
 import grayserious from './gray-serious.jpg'
 import graysmile from './gray-smile.jpg'
 
 
 
-
-// const styles = {
-//   backgroundImage: `url(${letters})`,
-
-//   backgroundRepeat: 'no-repeat',
-//   backgroundSize: 'cover',
-//   marginBottom: 10
-// }
-
 class App extends Component {
+
   render() {
     return (
       <div className='App' >
@@ -26,26 +18,22 @@ class App extends Component {
         <header className='header'>
           <div>
             <h1 className='myName'> Mary Warrick</h1>
-              {/* <p className='signature'>
-              Welcome to my site :-)
-              </p> */}
             </div>
           </header>
-
           <div className='appContainer'>
-            <div className='contentDivs' id='serious'>
+            <div className='contentDivs'>
               <img src={graysmile}/>
-              <img src={smile}/>
+              <img src={lightsmile}/>
                 <p className='contentHeaders'>About Me</p>
               </div>
-            <div className='contentDivs' id='smile'>
+            <div className='contentDivs'>
                 <img src={grayserious}/>
-                <img src={serious}/>
+                <img src={lightserious}/>
                 <p className='contentHeaders'>Projects</p>
             </div>
-            <div className='contentDivs' id='brow'>
-              <img src={brow}/>
-              <img src={brow}/>
+            <div className='contentDivs'>
+              <img src={graybrow}/>
+              <img src={lightbrow}/>
                 <p className='contentHeaders'>Contact</p>
             </div>
           </div>
