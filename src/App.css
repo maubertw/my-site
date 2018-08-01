@@ -3,7 +3,6 @@
     display: flex;
     justify-content: space-between;
     width: 70vw;
-
   }
 
   .center {
@@ -12,13 +11,11 @@
    align-items: center;
    height: 100vw;
    flex-direction: column
-
-
   }
 
   .header {
     padding-left: 30px;
-    padding-top: 200px;
+    padding-top: 110px;
     padding-bottom: 10px;
     text-align: center;
     /* position: relative;
@@ -28,10 +25,10 @@
 
 
   .myName {
-    color: #092e96;
+    color:  #292a2b;
+    /* #092e96; */
     font-size: 7em;
     font-weight: 400;
-    line-height: .85;
     margin: 0
   }
 
@@ -43,17 +40,18 @@
   }
 
   .contentHeaders {
-    color: #092e96;
-    font-size: 25;
+    color: #292a2b;
+    /* #092e96; */
+    font-size: 1.2em;
     margin: 0;
-
+    position: absolute;
+    z-index: 5
   }
 
 
   .contentDivs {
     flex: 1;
     margin: 40px;
-    background-color: white;
     height: 300px;
     width: 300px;
     display: flex;
@@ -61,7 +59,20 @@
     align-items: center;
     font-size: 2em;
     font-weight: 600;
+    overflow: hidden;
+    border: 15px solid #292a2b;
+    border-radius: 3px
   }
+
+  .contentDivs:hover {
+    border: 15px solid aqua;
+  }
+
+  img {
+    object-fit: cover;
+    width: 200%
+  }
+
 
   .signature {
     color: #092e96;

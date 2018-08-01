@@ -7,7 +7,7 @@ body {
   flex-direction: column;
   background-image: url(letters.svg);
   background-repeat: repeat-y;
-  /* background-size: cover; */
+
 
 }
 

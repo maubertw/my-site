@@ -1,6 +1,14 @@
-import React, { Component } from 'react';
-import './App.css';
-import letters from './letters.svg'
+import React, { Component } from 'react'
+import './App.css'
+import brow from './brow.jpg'
+import serious from './serious.jpg'
+import smile from './smile.jpg'
+import graybrow from './gray-brow.jpg'
+import grayserious from './gray-serious.jpg'
+import graysmile from './gray-smile.jpg'
+
+
+
 
 // const styles = {
 //   backgroundImage: `url(${letters})`,
@@ -25,15 +33,21 @@ class App extends Component {
           </header>
 
           <div className='appContainer'>
-          <div className='contentDivs'>
-            <p className='contentHeaders'>About Me</p>
-          </div>
-          <div className='contentDivs'>
-            <p className='contentHeaders'>Projects</p>
-          </div>
-          <div className='contentDivs'>
-            <p className='contentHeaders'>Contact</p>
-          </div>
+            <div className='contentDivs' id='serious'>
+              <img src={graysmile}/>
+              <img src={smile}/>
+                <p className='contentHeaders'>About Me</p>
+              </div>
+            <div className='contentDivs' id='smile'>
+                <img src={grayserious}/>
+                <img src={serious}/>
+                <p className='contentHeaders'>Projects</p>
+            </div>
+            <div className='contentDivs' id='brow'>
+              <img src={brow}/>
+              <img src={brow}/>
+                <p className='contentHeaders'>Contact</p>
+            </div>
           </div>
           </div>
           </div>
