@@ -24,9 +24,11 @@ class MyInfo extends Component {
 
                <a href="https://www.linkedin.com/in/mary-warrick-1a21a7b4/"> <i class="fab fa-linkedin" ></i></a>
                 <a href="https://github.com/maubertw"> <i class="fab fa-github" ></i></a>
-
+                <div className='tooltip'><span className='tooltiptext'>copy mary's email to clipboard</span>
                 <i class="fas fa-envelope" onClick={(e) => this.copyEmail(e)} ></i>
 
+
+                </div>
                 </div>
 
                 <input type="text" value="meaubertw@gmail.com" id="email"></input>
