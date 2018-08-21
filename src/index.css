@@ -8,9 +8,14 @@ body {
   background-repeat: no-repeat;
   background-color: #FEFFF2;
   background-size: 100vw;
-  height: 300vh
+  height: 100vh
 
 }
+
+/* .App {
+  display: flex;
+  align-items: center;
+} */
 
 .tooltip {
   position: relative;
@@ -24,7 +29,7 @@ body {
   color: #fff;
   text-align: center;
   border-radius: 6px;
-  padding: 5px;
+  padding: 10px;
   position: absolute;
   z-index: 1;
   bottom: 100%;
@@ -95,8 +100,15 @@ body {
 }
 
 .contentHeadersRed {
-  color: red;
+  color:#EF4907;
   font-size: 1.2em;
+  margin: 0;
+  position: absolute;
+  z-index: 5;
+}
+
+.contentHeadersBlack {
+  font-size: 2em;
   margin: 0;
   position: absolute;
   z-index: 5;
