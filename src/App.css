@@ -75,8 +75,10 @@ i:hover {
     display: flex;
     margin-top: 150px;
     align-items: center;
-    align-self: center;
-    margin-left: 200px
+    position: absolute;
+    top: -75px
+    /* align-self: flex-start; */
+    /* margin-left: 200px */
 }
 .aboutText {
   max-width: 400px;
@@ -87,7 +89,6 @@ i:hover {
   font-size: 1020px;
   margin: 0;
 
-
 }
 
 .circle {
@@ -95,12 +96,14 @@ i:hover {
   width: 47vw;
   max-height: 650px;
   max-width: 650px;
+  min-width: 650px;
+  min-height: 650px;
   border-radius: 100%;
   background-color: #EF4907;
   opacity: .90;
   position: absolute;
   z-index: -1;
-  left: 25vw;
+  left: 200px;
 
 }
 
