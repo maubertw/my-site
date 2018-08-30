@@ -36,7 +36,6 @@ class MyInfo extends Component {
                 oyster shucker,<br/>
                 bonvivant.
                 </p>
-
             </div>
           </div>);
     }

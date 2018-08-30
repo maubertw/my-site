@@ -1,9 +1,6 @@
 import React, { Component } from 'react'
 import './App.css'
-import About from './about'
-import Projects from './projects'
 import MyInfo from './my-info'
-import Test from './test'
 import {withRouter, Route, Switch, Redirect, BrowserRouter as Router, Link} from 'react-router-dom'
 
 
@@ -22,9 +19,6 @@ class App extends Component {
         <div className='App' >
           <Switch>
             <Route exact path='/' component={MyInfo} />
-            <Route path='/about-mary' component={About} />
-            <Route path='/my-projects' component={Projects} />
-            <Route path='/test' component={Test} />
           </Switch>
         </div>
         </Router>);
