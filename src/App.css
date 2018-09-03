@@ -35,6 +35,7 @@
       min-height: 400px;
       position: absolute;
       z-index: 5;
+      padding: 0;
   }
 
   .lorumIpsum {
@@ -45,6 +46,13 @@
     justify-content: center
   }
 }
+
+/* @media only screen and (max-width: 500px) {
+  .card {
+    padding-right: 0px;
+  }
+
+} */
 
 
 .card {
