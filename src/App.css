@@ -1,14 +1,11 @@
 /*Resume*/
 
 .resume {
-  /* font-weight: 400; */
-  /* font-style: italic; */
   font-size: 20px;
   text-decoration: none;
   color: #EF4907;
   font-family: Helvetica;
   margin-top: 20px;
-  /* display: block */
 }
 
 .resume:hover {
@@ -27,15 +24,28 @@
 
 }
 
+.card {
+  width: 32vw;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding-top: 50px;
+  padding-right: 60px;
+
+
+}
+
+
 @media only screen and (max-width: 1200px) {
   .card {
       max-width: 400px;
       max-height: 400px;
-      min-width: 400px;
-      min-height: 400px;
+      min-width: 300px;
+      min-height: 300px;
       position: absolute;
       z-index: 5;
-      padding: 0;
+      padding: 20px
+
   }
 
   .lorumIpsum {
@@ -47,23 +57,9 @@
   }
 }
 
-/* @media only screen and (max-width: 500px) {
-  .card {
-    padding-right: 0px;
-  }
-
-} */
 
 
-.card {
-  width: 32vw;
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-  padding-top: 50px;
-  padding-right: 60px;
 
-}
 
 
 i {
