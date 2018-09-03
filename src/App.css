@@ -27,6 +27,25 @@
 
 }
 
+@media only screen and (max-width: 1200px) {
+  .card {
+      max-width: 400px;
+      max-height: 400px;
+      min-width: 400px;
+      min-height: 400px;
+      position: absolute;
+      z-index: 5;
+  }
+
+  .lorumIpsum {
+    display: none;
+  }
+
+  .welcome {
+    justify-content: center
+  }
+}
+
 
 .card {
   width: 32vw;
@@ -130,5 +149,6 @@ i:hover {
   left: 200px;
 
 }
+
 
 
