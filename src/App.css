@@ -1,7 +1,7 @@
 /*Resume*/
 
 .resume {
-  font-size: 20px;
+  font-size: 25px;
   text-decoration: none;
   color: #EF4907;
   font-family: Helvetica;
@@ -25,48 +25,22 @@
 }
 
 .card {
-  width: 32vw;
+  width: 34vw;
+  min-width: 450px;
   display: flex;
   flex-direction: column;
   text-align: center;
+  flex-shrink: 2;
   padding-top: 50px;
   padding-right: 60px;
 
-
 }
-
-
-@media only screen and (max-width: 1200px) {
-  .card {
-      max-width: 400px;
-      max-height: 400px;
-      min-width: 300px;
-      min-height: 300px;
-      position: absolute;
-      z-index: 5;
-      padding: 20px
-
-  }
-
-  .lorumIpsum {
-    display: none;
-  }
-
-  .welcome {
-    justify-content: center
-  }
-}
-
-
-
-
 
 
 i {
   font-size: 2.5em;
   color: black;
   margin-top: 10px;
-  /* margin-right: 20px; */
 }
 
 
@@ -78,7 +52,33 @@ i:hover {
 
 
 #email {
-  opacity: 0;
+  /* opacity: 0; */
+  /* height: 30px; */
+  padding: 8px;
+  width: 215px;
+  font-size: 20px;
+  font-weight: 200;
+  /* color: #EF4907; */
+  font-family: Helvetica;
+  border-radius: 5px;
+
+
+}
+
+.email-copy {
+  display: flex;
+  align-items: center;
+  width: 400px;
+  justify-content: center;
+  align-self: center;
+}
+
+.email-copy button {
+  height: 44px;
+  background-color: black;
+  color: white;
+  border-radius: 5px;
+  align-self: center;
 }
 
 
@@ -86,7 +86,7 @@ i:hover {
   display: flex;
   justify-content: space-between;
   margin-top: 10px;
-  width: 150px;
+  width: 100px;
   align-self: center;
 
 
@@ -112,6 +112,73 @@ i:hover {
     margin-bottom: 10px;
     font-family: Helvetica;
   }
+
+
+
+  @media only screen and (max-width: 1200px) {
+    .lorumIpsum {
+      position: fixed;
+      left: -100px;
+      height: 100vh;
+
+    }
+
+    .card {
+      position: absolute;
+      right: 2vw;
+    }
+
+
+  }
+
+  @media only screen and (max-width: 1000px) {
+    .lorumIpsum {
+      left: -200px;
+    }
+  }
+
+  @media only screen and (max-width: 850px) {
+    .lorumIpsum {
+      left: -350px;
+
+    }
+
+    .card {
+      right: 5vw;
+      top: -20px
+    }
+  }
+
+  @media only screen and (max-width: 600px) {
+    .card {
+        max-width: 400px;
+        max-height: 400px;
+        min-width: 300px;
+        min-height: 300px;
+        position: absolute;
+        z-index: 5;
+        padding: 20px;
+        left: 0
+
+    }
+
+    .lorumIpsum {
+      display: none;
+    }
+
+    .welcome {
+      justify-content: center
+    }
+  }
+
+
+
+
+
+
+
+
+
 
 
 /* About */

@@ -29,16 +29,21 @@ class MyInfo extends Component {
                 oyster shucker,<br/>
                 bonvivant.
                 </p>
-                <a className='resume' href={resume} >View My Resume</a>
                 <div className='logosAndLinks'>
                <a href="https://www.linkedin.com/in/mary-warrick-1a21a7b4/"> <i class="fab fa-linkedin" ></i></a>
                 <a href="https://github.com/maubertw"> <i class="fab fa-github" ></i></a>
-                <div className='tooltip'><span className='tooltiptext'>click to copy Mary's email to your clipboard</span>
-                <i class="fas fa-envelope" onClick={(e) => this.copyEmail(e)} ></i></div>
-                </div>
 
+                </div><br/>
 
+                <div className='email-copy'>
                 <input type="text" value="meaubertw@gmail.com" id="email"></input>
+                <div className='tooltip'><span className='tooltiptext'>click to copy Mary's email to your clipboard</span>
+                <button onClick={(e) => this.copyEmail(e)} >copy email</button>
+                </div></div>
+                <a className='resume' href={resume} >View My Resume</a><br/>
+
+
+
 
 
 
