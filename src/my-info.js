@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import lorumIpsum from './images/lorum-ipsum.svg'
-import resume from './images/MaryWarrickResume.pdf'
+import resume from './images/MaryWarrickResume2.pdf'
 import {Link} from 'react-router-dom'
 
 
