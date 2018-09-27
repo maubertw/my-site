@@ -18,40 +18,25 @@ class MyInfo extends Component {
   render() {
     return (
       <div className='welcome' >
-            <div className='lorumIpsum'>
-                <img src={lorumIpsum} />
-            </div>
-            <div className='card' >
-                <h1 className='myName'> Mary Warrick</h1>
+      <div className='border'>
 
-                <p className='regularTextBlack'><strong>Full-Stack Software Developer,</strong><br/>
-                typography enthusiast,<br/>
-                oyster shucker,<br/>
-                bonvivant.
+                <p className='intro-text'>
+                <span className='hello'>Well hello there,</span><br/><br/>
+
+                <span className='textBody'>Thank you for visiting my site - I’m so glad you came.  Let me tell you a little about myself…<br/><br/>
+
+                Before teaching myself how to code I was a line cook and chef.  This high-intensity detail oriented career has instilled in me a great deal of discipline, and has taught me above all how to work on a team with anyone.  Always having a desire to be both technical and creative, software engineering was a natural choice for my career change.  It all began in San Francisco where I had been working in kitchens for a few years.  My curiosity had led me to take an intro to Python course at Hackbright Academy.  I fell in love with programming immediately, and have never looked back.<br/><br/>
+
+                Currently, I am a teaching fellow at FullStack Academy in Chicago.  It has been a rewarding experience to grow my knowledge through teaching, and I have had the privilege to be project manager to four student teams.  For my next employment opportunity I am looking for a full-stack role - but am open to specializing in back or front end development.  I want to be a part of an organization that is building something useful and elegant.  I want to spend my days enveloped in unraveling the mysteries of a production code base, I want to be a part of building and growing my company’s codebase, and sharing my work with a team of positive and humble colleagues.</span>
                 </p>
-                <a className='resume' href={resume} >View My Resume</a>
-                <div className='logosAndLinks'>
-               <a href="https://www.linkedin.com/in/mary-warrick-1a21a7b4/"> <i class="fab fa-linkedin" ></i></a>
-                <a href="https://github.com/maubertw"> <i class="fab fa-github" ></i></a>
-                <div className='tooltip'><span className='tooltiptext'>click to copy Mary's email to your clipboard</span>
-                <i class="fas fa-envelope" onClick={(e) => this.copyEmail(e)} ></i></div>
-                </div>
-
-
-                <input type="text" value="meaubertw@gmail.com" id="email"></input>
-
-
-
-
-
-            </div>
+          </div>
           </div>);
     }
+  }
 
 
-}
 
-export default MyInfo;
+    export default MyInfo;
 
 
 

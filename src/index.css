@@ -2,21 +2,26 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Times New Roman';
+  font-family: 'Open Sans', Helvetica, sans-serif;
   font-weight: 100;
   display: flex;
-  background-repeat: no-repeat;
-  background-color: #FEFFF2;
-  background-size: 100vw;
-  height: 100vh
+  background-size: 30vw;
+  flex-direction: column;
+  align-items: center;
+  height: 300vh;
+  text-decoration: none;
+  /* background-repeat: repeat;
+  background-image: url('./images/graph-paper.jpeg');
+  background-size: 30vw; */
 
 }
 
+a {
+  font-family: 'Roboto Slab', serif;
+  text-decoration: none;
+  color: black
+}
 
-/* .App {
-  display: flex;
-  align-items: center;
-} */
 
 .tooltip {
   position: relative;
@@ -57,63 +62,6 @@ body {
 }
 
 
-.regularTextRed {
-  color:#EF4907;
-  font-size: 15;
-  font-family: Helvetica;
-  line-height: 1.5;
-  letter-spacing: 1px;
-  margin: 4px;
-  text-align: center;
-}
-
-.regularTextBlack {
-  color:black;
-  font-size: 15;
-  font-family: Helvetica;
-  line-height: 1.5;
-  letter-spacing: 1px;
-  margin: 4px;
-
-
-}
-
-.regularTextBlackLeft {
-  color:black;
-  font-size: 15;
-  font-family: Helvetica;
-  line-height: 1.5;
-  letter-spacing: 1px;
-  margin: 4px;
-  text-align: left;
-
-}
-
-.regularTextBlackTimes {
-  color:black;
-  font-size: 15;
-  font-family: Times New Roman;
-  line-height: 1.5;
-  letter-spacing: 1px;
-  margin: 4px;
-  text-align: left;
-
-}
-
-.contentHeadersRed {
-  color:#EF4907;
-  font-size: 1.2em;
-  margin: 0;
-  position: absolute;
-  z-index: 5;
-}
-
-.contentHeadersBlack {
-  font-size: 2em;
-  margin: 0;
-  position: absolute;
-  z-index: 5;
-}
 
 
 

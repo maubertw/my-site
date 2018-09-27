@@ -1,158 +1,158 @@
 /*Resume*/
 
 .resume {
-  font-size: 20px;
   text-decoration: none;
-  color: #EF4907;
-  font-family: Helvetica;
-  margin-top: 20px;
+  color: black
 }
 
-.resume:hover {
+
+a:hover {
   transform: translateY(-5px);
   transition-timing-function: ease-in-out;
   transition-duration: .25s;
 }
 
+/* Nav */
 
-/* MyInfo container Contains large image and card */
-
-.welcome {
-  height: 100vh;
-  width: 100vw;
-  display: flex;
-
-}
-
-.card {
-  width: 32vw;
+nav {
   display: flex;
   flex-direction: column;
-  text-align: center;
-  padding-top: 50px;
-  padding-right: 60px;
-
-
+  align-items: center;
+  height: auto;
+  width: 100vw;
+  border-bottom: 1px solid black;
+  margin: 0px
 }
 
+/* font-family: 'Roboto Slab', serif; */
 
-@media only screen and (max-width: 1200px) {
-  .card {
-      max-width: 400px;
-      max-height: 400px;
-      min-width: 300px;
-      min-height: 300px;
-      position: absolute;
-      z-index: 5;
-      padding: 20px
-
-  }
-
-  .lorumIpsum {
-    display: none;
-  }
-
-  .welcome {
-    justify-content: center
-  }
+.myName {
+  color: #EF4907;
+  font-size: 3.7em;
+  font-weight: 300;
+  margin: 20px 0 0 0;
+  font-family: 'Roboto Slab', serif;
 }
 
+.navLinks {
+  display: flex;
+  width: 100vw;
+  justify-content: space-around;
+  margin: 10px 0px;
+  align-items: baseline
+}
 
+.navLinks a {
+  text-decoration: none;
+  margin: 0px;
+  font-size: 1em;
+  font-weight: 600;
+  color: black;
+}
 
+.navLinks:active {
+  color: #EF4907
+}
 
+.byLine {
+  margin: 0;
+  margin-top: 10px;
+  font-size: 1.2em;
+  font-family: 'Roboto Slab', serif;
+  text-align: center
+}
+
+.social {
+  font-size: .5em;
+  width: 12vw;
+  display: flex;
+  justify-content: space-between
+
+}
 
 
 i {
   font-size: 2.5em;
   color: black;
   margin-top: 10px;
-  /* margin-right: 20px; */
 }
 
 
-i:hover {
-  transform: translateY(-5px);
-  transition-timing-function: ease-in-out;
-  transition-duration: .25s;
-}
 
 
-#email {
-  opacity: 0;
-}
+/* intro area */
 
-
-.logosAndLinks {
+.welcome {
   display: flex;
-  justify-content: space-between;
-  margin-top: 10px;
-  width: 150px;
-  align-self: center;
+  flex-direction: column;
+  align-items: center;
 
+}
+
+.intro-text {
+  width: 350px;
+  margin-top: 50px
+}
+
+.hello {
+  /* font-style: italic; */
+  font-weight: 600;
+  font-family: 'Roboto Slab', serif;
+
+}
+
+.textBody {
+  /* font-size: .95em; */
+}
+
+
+/* Projects */
+
+
+
+.projects {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* margin: 0px 20px; */
+
+}
+
+.projects a {
+  color: #EF4907;
+  margin-bottom: 10px;
+}
+
+.projects span {
+  width: 350px;
+  margin: 10px 0
+}
+
+.displayBox {
+  border-bottom: 1px solid black;
+  text-align: center
+}
+
+.projectPhoto {
+  width: 350px;
+  border: 1px solid black;
+}
+
+.projectHeader {
+  font-family: 'Roboto Slab', serif;
+  font-size: 2.5em;
+  margin: 30px
 
 }
 
 
-.lorumIpsum {
-  width: 66vw;
-  overflow: visible;
-}
 
 
-.lorumIpsum img {
-  width: 100vw
-}
 
 
-.myName {
-    color: #EF4907;
-    font-size: 4.2em;
-    font-weight: 600;
-    margin: 0;
-    margin-bottom: 10px;
-    font-family: Helvetica;
-  }
 
 
-/* About */
 
-#about {
-    height: 80vh;
-    width: 70vw;
-    display: flex;
-    margin-top: 150px;
-    align-items: center;
-    position: absolute;
-    top: -75px
-    /* align-self: flex-start; */
-    /* margin-left: 200px */
-}
-.aboutText {
-  max-width: 400px;
-  min-width: 400px;
-}
-
-.questionMark {
-  font-size: 1020px;
-  margin: 0;
-
-}
-
-.circle {
-  height: 47vw;
-  width: 47vw;
-  max-height: 650px;
-  max-width: 650px;
-  min-width: 650px;
-  min-height: 650px;
-  border-radius: 100%;
-  background-color: #EF4907;
-  opacity: .90;
-  position: absolute;
-  z-index: -1;
-  left: 200px;
-
-}
 
 
 
