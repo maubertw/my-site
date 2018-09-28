@@ -13,6 +13,13 @@ class Projects extends Component {
       <div className='projects'>
         <ProjectDisplay name={'Code Map'} photo={map} text={lorum} link={link}/>
         <ProjectDisplay name={'Personal Website'} photo={mine} text={lorum} link={link}/>
+        <div className='projects displayBox'>
+          <p className='projectHeader'>Words in Motion</p>
+          <iframe width="350" height="197" src="https://www.youtube.com/embed/4fVmH_u-8ic" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+          <span>
+            <p>{lorum}</p>
+          </span>
+        </div>
         <ProjectDisplay name={'Candy Crushers'} photo={candy} text={lorum} link={link}/>
       </div>)
   }

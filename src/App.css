@@ -67,7 +67,6 @@ nav {
   width: 12vw;
   display: flex;
   justify-content: space-between
-
 }
 
 
@@ -86,35 +85,29 @@ i {
   display: flex;
   flex-direction: column;
   align-items: center;
+  text-align: center
 
 }
 
 .intro-text {
   width: 350px;
-  margin-top: 50px
+  margin-top: 35px
 }
 
 .hello {
-  /* font-style: italic; */
   font-weight: 600;
   font-family: 'Roboto Slab', serif;
-
 }
 
-.textBody {
-  /* font-size: .95em; */
-}
 
 
 /* Projects */
-
-
 
 .projects {
   display: flex;
   flex-direction: column;
   align-items: center;
-  /* margin: 0px 20px; */
+
 
 }
 

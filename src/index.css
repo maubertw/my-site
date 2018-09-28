@@ -8,12 +8,7 @@ body {
   background-size: 30vw;
   flex-direction: column;
   align-items: center;
-  height: 300vh;
   text-decoration: none;
-  /* background-repeat: repeat;
-  background-image: url('./images/graph-paper.jpeg');
-  background-size: 30vw; */
-
 }
 
 a {

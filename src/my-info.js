@@ -1,7 +1,6 @@
 import React, { Component } from 'react'
-import lorumIpsum from './images/lorum-ipsum.svg'
-import resume from './images/MaryWarrickResume2.pdf'
-import {Link} from 'react-router-dom'
+import me from './images/me.jpeg'
+
 
 
 
@@ -18,8 +17,8 @@ class MyInfo extends Component {
   render() {
     return (
       <div className='welcome' >
-      <div className='border'>
 
+                <img src={me} style={{marginTop: '30px'}}/>
                 <p className='intro-text'>
                 <span className='hello'>Well hello there,</span><br/><br/>
 
@@ -29,7 +28,6 @@ class MyInfo extends Component {
 
                 Currently, I am a teaching fellow at FullStack Academy in Chicago.  It has been a rewarding experience to grow my knowledge through teaching, and I have had the privilege to be project manager to four student teams.  For my next employment opportunity I am looking for a full-stack role - but am open to specializing in back or front end development.  I want to be a part of an organization that is building something useful and elegant.  I want to spend my days enveloped in unraveling the mysteries of a production code base, I want to be a part of building and growing my company’s codebase, and sharing my work with a team of positive and humble colleagues.</span>
                 </p>
-          </div>
           </div>);
     }
   }
