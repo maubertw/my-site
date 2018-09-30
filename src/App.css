@@ -6,7 +6,7 @@
 }
 
 
-a:hover {
+.navLinks a:hover {
   transform: translateY(-5px);
   transition-timing-function: ease-in-out;
   transition-duration: .25s;
@@ -32,6 +32,27 @@ nav {
   font-weight: 300;
   margin: 20px 0 0 0;
   font-family: 'Roboto Slab', serif;
+}
+
+.email {
+  font-weight: 400;
+  font-size: .75em
+}
+
+.email div {
+  margin-top: 10px;
+}
+
+button {
+  background-color: lightblue;
+  margin-left: 2px;
+  padding: 3px;
+  border-radius: 3px;
+}
+
+input {
+  padding: 3px;
+  border-radius: 3px;
 }
 
 .navLinks {
@@ -111,9 +132,15 @@ i {
 
 }
 
-.projects a {
+.visit {
   color: #EF4907;
   margin-bottom: 10px;
+}
+
+.visit:hover {
+  transform: translateY(-5px);
+  transition-timing-function: ease-in-out;
+  transition-duration: .25s;
 }
 
 .projects span {
@@ -121,9 +148,19 @@ i {
   margin: 10px 0
 }
 
+.projectLinks {
+  display: flex;
+  flex-direction: column;
+  align-items: center
+}
+
 .displayBox {
   border-bottom: 1px solid black;
   text-align: center
+}
+
+.role {
+  font-weight: 400
 }
 
 .projectPhoto {
@@ -138,6 +175,14 @@ i {
 
 }
 
+
+/* footer */
+
+footer {
+  height: 100px;
+  background-color: #EF4907;
+  margin-top: 30px
+}
 
 
 
