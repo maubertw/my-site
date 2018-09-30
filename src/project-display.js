@@ -1,8 +1,9 @@
 import React, { Component } from 'react'
+import Icons from './language-icons'
 
 
 
-const ProjectDisplay = ({ name, link, projectData }) => {
+const ProjectDisplay = ({ name, link, projectData, icons }) => {
   const { img, main, role } = projectData
   return(
     <div className='projects displayBox'>
@@ -23,6 +24,7 @@ const ProjectDisplay = ({ name, link, projectData }) => {
         role && <p><span className='role'>My role:</span><br/>{role}</p>
       }
     </span>
+      <Icons icons={icons} />
     </div>
   )
 }
