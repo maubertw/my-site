@@ -19,7 +19,6 @@ nav {
   flex-direction: column;
   align-items: center;
   height: auto;
-  width: 100vw;
   border-bottom: 1px solid black;
   margin: 0px
 }
@@ -41,20 +40,9 @@ nav {
 }
 
 .email div {
-  margin-top: 10px;
+  margin: 10px 0 0 0;
 }
 
-button {
-  background-color: lightblue;
-  margin-left: 2px;
-  padding: 3px;
-  border-radius: 3px;
-}
-
-input {
-  padding: 3px;
-  border-radius: 3px;
-}
 
 .navLinks {
   display: flex;
@@ -86,9 +74,9 @@ input {
 
 .social {
   font-size: .5em;
-  width: 12vw;
+  width: 13vw;
   display: flex;
-  justify-content: space-between
+  justify-content: space-between;
 }
 
 
@@ -98,7 +86,9 @@ i {
   margin-top: 10px;
 }
 
-
+iframe {
+  margin-top: 15px 0
+}
 
 
 /* intro area */
@@ -160,7 +150,8 @@ i {
 
 .displayBox {
   border-bottom: 1px solid black;
-  text-align: center
+  text-align: center;
+  margin: 0
 }
 
 .role {
@@ -177,7 +168,7 @@ i {
 .projectHeader {
   font-family: 'Roboto Slab', serif;
   font-size: 2.5em;
-  margin: 30px
+  margin: 30px 0
 
 }
 
