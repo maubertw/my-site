@@ -26,7 +26,7 @@ class MyInfo extends Component {
 
                 I currently work at Fullstack Academy as a teaching fellow — a leadership position that has accelerated my growth as a developer.  It has been a rewarding experience to grow my knowledge through teaching, and to serve as project manager to four student teams.<br/><br/>
 
-                I am currently looking for a full-stack developer role; though I am happy to specialize in either front or back-end - I am equally gifted in both!  If you have an employment opportunity for me, or would like to connect please reach out!  I would love to hear from you!
+                I am currently looking for a full-stack developer role; though I am happy to specialize in either front or back-end because I am equally gifted in both.  If you have an employment opportunity for me, or would like to connect please reach out.  I would love to hear from you!
                 </span><br/><br/>
                 <span className='hello'>-Mary</span>
                 </p>

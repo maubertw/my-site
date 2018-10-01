@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import './App.css'
 import MyInfo from './my-info'
-import resume from './images/resume-redesign.pdf'
+import resume from './images/mary-warrick-resume.pdf'
 import Projects from './projects'
 import {withRouter, Route, Switch, Redirect, BrowserRouter as Router, NavLink, Link} from 'react-router-dom'
 
