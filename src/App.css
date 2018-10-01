@@ -112,7 +112,9 @@ i {
 }
 
 .intro-text {
-  width: 350px;
+  /* width: 350px; */
+  max-width: 350px;
+  min-width: 200px;
   margin-top: 35px
 }
 
@@ -166,7 +168,9 @@ i {
 }
 
 .projectPhoto {
-  width: 350px;
+  /* width: 350px; */
+  max-width: 350px;
+  min-width: 200px;
   border: 1px solid black;
 }
 
