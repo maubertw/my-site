@@ -12,7 +12,7 @@ const ProjectDisplay = ({ name, link, projectData, icons }) => {
       {
         name !== 'Personal Website' && <a className='visit' href={link}>{`Visit ${name}`}</a>
       }
-      <img className='projectPhoto' src={img}/>
+      <img className='projectPhoto' src={img} />
       </a>
       <br/>
       <span>

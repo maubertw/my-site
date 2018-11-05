@@ -1,11 +1,9 @@
 import React, { Component } from 'react'
 import './App.css'
 import MyInfo from './my-info'
-import resume from './images/mary-warrick-resume.pdf'
+import resume from './images/mary-warrick-resume-new.pdf'
 import Projects from './projects'
-import {withRouter, Route, Switch, Redirect, BrowserRouter as Router, NavLink, Link} from 'react-router-dom'
-
-
+import { Route, Switch, Redirect, BrowserRouter as Router, NavLink } from 'react-router-dom'
 
 
 class App extends Component {
