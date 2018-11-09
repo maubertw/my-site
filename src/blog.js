@@ -9,7 +9,7 @@ const Blerb = (props) => {
     <a href={link}>
         <div className='blerb'>
             <div className='blerbHeader'>
-            <p className='projectHeader'>{title}</p>
+            <p>{title}</p>
             </div>
             <p>{date} - {description}</p>
         </div>

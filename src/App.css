@@ -51,7 +51,7 @@ nav {
 
 .blerb {
   height: 150px;
-  width: 410px;
+  width: 340px;
   border: 1px solid black;
   display: flex;
   flex-direction: column;
@@ -62,10 +62,13 @@ nav {
 .blerbHeader {
   background-color: lightgray;
   height: 75px;
-  width: 410px;
+  width: 340px;
   display: flex;
   justify-content: center;
   flex-direction: column;
+  font-family: 'Roboto Slab', serif;
+  font-size: 1.75em;
+
 
 }
 
