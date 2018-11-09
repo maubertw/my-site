@@ -51,7 +51,7 @@ nav {
 
 .blerb {
   height: 150px;
-  width: 340px;
+  width: 310px;
   border: 1px solid black;
   display: flex;
   flex-direction: column;
@@ -62,7 +62,7 @@ nav {
 .blerbHeader {
   background-color: lightgray;
   height: 75px;
-  width: 340px;
+  width: 310px;
   display: flex;
   justify-content: center;
   flex-direction: column;
