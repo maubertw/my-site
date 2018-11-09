@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import me from './images/me.jpeg'
+import { NavLink } from 'react-router-dom'
 
 
 class MyInfo extends Component {
@@ -13,7 +14,7 @@ class MyInfo extends Component {
   render() {
     return (
       <div className='welcome' >
-                <a className='blog-links' href='https://medium.com/@mewarrick/starting-and-planning-a-project-2283c584c218'>NEW - I'm starting a project, read my first blog post!</a>
+                <NavLink to='/blog' className='blog-links' ><strong>NEW! - Blog</strong></NavLink>
                 <img src={me} style={{marginTop: '30px'}}/>
                 <p className='intro-text'>
                 <span className='hello'>Well hello there,</span><br/><br/>
