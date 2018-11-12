@@ -57,6 +57,7 @@ nav {
   flex-direction: column;
   justify-content: flex-start;
   text-align: center;
+  margin: 20px
 }
 
 .blerbHeader {
