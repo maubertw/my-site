@@ -3,7 +3,7 @@
 const blerbs = [
   {
     title: 'Readjusting my Course',
-    description: "After starting Wordy's UI, I refocus my plan to deal with complexities in the project",
+    description: "After starting Wordy's UI, I refocus my plan to deal with complexities in the project.",
     date: '11/11/2018',
     link: 'https://medium.com/@mewarrick/redefining-the-problem-ef46750bc07d'
   },
