@@ -1,36 +1,39 @@
 import React, { Component } from 'react'
-import me from './images/me.jpeg'
-import { NavLink } from 'react-router-dom'
+import google from './images/google.jpg'
+import card from './images/card.jpg'
+
 
 
 class MyInfo extends Component {
 
-  copyEmail = () => {
-    let copyText = document.getElementById("email")
-    copyText.select()
-    document.execCommand("copy")
-  }
 
   render() {
     return (
       <div className='welcome' >
-                <NavLink to='/blog' className='blog-links' ><strong>NEW! - Blog</strong></NavLink>
-                <img src={me} style={{marginTop: '30px'}}/>
-                <p className='intro-text'>
-                <span className='hello'>Well hello there,</span><br/><br/>
+                <div className='intro-text'>
+                <span className='hello'>Welcome!</span><br/>
 
-                <span className='textBody'>Thank you for visiting my site - I’m so glad you came.  You would probably like to know a little bit about me…<br/><br/>
+                My name is Mary, and I am a full stack software developer.  The process of solving problems gets me excited; I want to create tools for both client facing and internal users.  Most recently I have had the pleasure of serving as a teaching fellow at Fullstack Academy of Code in Chicago.  I spent over 550 hours teaching, mentoring, and leading student agile teams.  We covered everything from git to testing and taught full stack Javascript development including: React, Redux, Node, Express, Postgres, Sequelize, HTML, and CSS.<br/><br/>
 
-                Before teaching myself how to code I was a line cook and chef.  This high-intensity detail oriented career has instilled in me a great deal of discipline, and has taught me above all how to work on a team.  As a worker you will find me to be loyal, hardworking, light-hearted, an unyielding source of positivity and calm, a problem solver, with the natural drive to strive towards simplicity and perfection in my work.<br/><br/>
 
-                Always having a desire to be both technical and creative, software engineering was a natural choice for my career change.  Working in San Francisco gave me the exposure to the tech industry that I needed to pique my interest.  I took an intro to Python class at Hackbright Academy, and fell in love with programming immediately.  I have never looked back.<br/><br/>
+                <img src={google}/>
+                <p>myself and some students on a trip to Google campus in Chicago (I'm 3rd from the left!)</p>
 
-                I currently work at Fullstack Academy as a teaching fellow — a leadership position that has accelerated my growth as a developer.  It has been a rewarding experience to grow my knowledge through teaching, and to serve as project manager to four student teams.<br/><br/>
+                Prior to being selected as a fellow, I went through the program myself.  Coming from a background as a professional cook, I was instantly enveloped in the world of programming.  I loved how everything was like a puzzle to be solved, and working with others to figure out complex problems.<br/><br/>
 
-                I am currently looking for a full-stack developer role; though I am happy to specialize in either front or back-end because I am equally gifted in both.  If you have an employment opportunity for me, or would like to connect please reach out.  I would love to hear from you!
-                </span><br/><br/>
-                <span className='hello'>-Mary</span>
-                </p>
+                Please stay a while and have a look at my projects and some cool stuff I have done.<br/><br/>
+
+
+                <span className='hello'>-Mary</span><br/><br/>
+
+                <img src={card}/>
+                <p>some praise from my time as a fellow</p><br/><br/>
+
+                <iframe width="350" height="197" src="https://www.youtube.com/embed/1caGbJbt7yM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <p>Fun fact about me, I love oysters!  I made this video to demonstrate my shucking technique.</p>
+
+
+                </div>
           </div>);
     }
   }

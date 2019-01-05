@@ -137,7 +137,8 @@ iframe {
   display: flex;
   flex-direction: column;
   align-items: center;
-  text-align: center
+  text-align: center;
+
 
 }
 
@@ -145,13 +146,29 @@ iframe {
   /* width: 350px; */
   max-width: 350px;
   min-width: 200px;
-  margin-top: 35px
+  margin-top: 35px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.intro-text img {
+  height: 300px
+}
+
+.intro-text p {
+  font-style: italic;
+  font-size: .75em;
+
+
 }
 
 .hello {
   font-weight: 600;
   font-family: 'Roboto Slab', serif;
+  color: #EF4907
 }
+
 
 
 
