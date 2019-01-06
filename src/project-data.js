@@ -55,7 +55,7 @@ const projects = {
     },
     mash: {
       name: 'M.A.S.H.',
-      main: 'After a few Code Academy tutorials I was ready for my first serious dip into real coding.  I enrolled in a night class at Hackbright academy in San Francisco, where I was cooking pizza at the time!  This was my final project for that class - a simple little command line game in Python.  After graduating I knew I was ready for the big leagues!',
+      main: 'After a few Code Academy tutorials I was ready for my first serious dip into real coding.  I enrolled in a night class at Hackbright academy in San Francisco, where I was cooking pizza at the time!  This was my final project for that class - a simple little command line game in Python.  After graduating I knew I was ready for a full time bootcamp.',
       img: hackbright,
       repo: 'https://github.com/maubertw/MASH',
       link: 'https://github.com/maubertw/MASH',

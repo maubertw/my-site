@@ -1,7 +1,8 @@
 import React, { Component } from 'react'
 import './App.css'
 import MyInfo from './my-info'
-import resume from "./mary-warrick-resume-new.pdf"
+import resumePdf from "./mary-warrick-resume-new.pdf"
+import resumeJpg from "./mary-warrick-resume-new.jpg"
 import Projects from './projects'
 
 import { Route, Switch, Redirect, BrowserRouter as Router, NavLink } from 'react-router-dom'
@@ -30,7 +31,8 @@ class App extends Component {
               color: '#EF4907'
              }}
             >Projects</NavLink>
-            <a className='resume' href={resume} target="_blank" type="application/pdf">Resume</a>
+            <a className='resume' href={resumeJpg} target="_blank" >View Resume</a>
+            <a className='resume' href={resumePdf} target="_blank" download >Download Resume</a>
           <div className='social'>
           <a href="https://www.linkedin.com/in/mary-warrick-1a21a7b4/"> <i class="fab fa-linkedin" ></i></a>
                 <a href="https://github.com/maubertw"> <i class="fab fa-github" ></i></a>
