@@ -1,8 +1,8 @@
 import React, { Component } from 'react'
 import './App.css'
 import MyInfo from './my-info'
-import resumePdf from "./images/resume.pdf"
-import resumeJpg from "./images/resume.jpg"
+import resumePdf from "./images/mary-warrick-resume-new.pdf"
+import resumeJpg from "./images/mary-warrick-resume-new.jpg"
 import Projects from './projects'
 
 import { Route, Switch, Redirect, BrowserRouter as Router, NavLink } from 'react-router-dom'
